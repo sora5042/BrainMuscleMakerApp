@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jmU-Gr-lna">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Title View Controller-->
+        <scene sceneID="fkx-tQ-Zzq">
+            <objects>
+                <viewController storyboardIdentifier="TitleViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jmU-Gr-lna" customClass="TitleViewController" customModule="BrainMuscleApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nD0-9q-LMT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="脳筋1" translatesAutoresizingMaskIntoConstraints="NO" id="Iel-ra-qmY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="診断メーカー" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81Y-tU-cvS">
+                                <rect key="frame" x="0.0" y="237.33333333333337" width="375" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="uuz-ei-hHw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Njt-iW-WNl">
+                                <rect key="frame" x="129" y="417.33333333333331" width="117" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="F7Y-4x-prD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="27"/>
+                                <state key="normal" title="はじめる">
+                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="脳筋" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qL-W0-SEU">
+                                <rect key="frame" x="100" y="104" width="175" height="113.33333333333331"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="175" id="TO9-L9-p5M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="87"/>
+                                <color key="textColor" red="1" green="0.98859065239999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="あなたやあなたの周りの人が脳筋か" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iij-Tv-TPn">
+                                <rect key="frame" x="0.0" y="570.33333333333337" width="375" height="28.666666666666629"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.10366324350295475" blue="0.38782288483275096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="どうかが分かる!?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1X7-6w-LhP">
+                                <rect key="frame" x="77" y="611" width="220" height="28.666666666666629"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.1036632435" blue="0.38782288479999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VVT-GS-tXs"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8qL-W0-SEU" firstAttribute="top" secondItem="VVT-GS-tXs" secondAttribute="top" constant="60" id="4Bt-sP-ofB"/>
+                            <constraint firstItem="VVT-GS-tXs" firstAttribute="trailing" secondItem="8qL-W0-SEU" secondAttribute="trailing" constant="100" id="905-lp-4iX"/>
+                            <constraint firstItem="Iij-Tv-TPn" firstAttribute="trailing" secondItem="VVT-GS-tXs" secondAttribute="trailing" id="DHA-mR-U6U"/>
+                            <constraint firstItem="Njt-iW-WNl" firstAttribute="top" secondItem="81Y-tU-cvS" secondAttribute="bottom" constant="80" id="MK1-f2-0vT"/>
+                            <constraint firstItem="Iij-Tv-TPn" firstAttribute="top" secondItem="Njt-iW-WNl" secondAttribute="bottom" constant="104" id="OK3-vo-daD"/>
+                            <constraint firstItem="1X7-6w-LhP" firstAttribute="top" secondItem="Iij-Tv-TPn" secondAttribute="bottom" constant="12" id="TsJ-hf-OU6"/>
+                            <constraint firstItem="81Y-tU-cvS" firstAttribute="top" secondItem="8qL-W0-SEU" secondAttribute="bottom" constant="20" id="YvB-sL-cWu"/>
+                            <constraint firstItem="81Y-tU-cvS" firstAttribute="trailing" secondItem="VVT-GS-tXs" secondAttribute="trailing" id="axW-4d-uqc"/>
+                            <constraint firstItem="81Y-tU-cvS" firstAttribute="leading" secondItem="VVT-GS-tXs" secondAttribute="leading" id="dT9-VS-f20"/>
+                            <constraint firstItem="VVT-GS-tXs" firstAttribute="trailing" secondItem="1X7-6w-LhP" secondAttribute="trailing" constant="78" id="dbu-gR-jIN"/>
+                            <constraint firstItem="Njt-iW-WNl" firstAttribute="leading" secondItem="VVT-GS-tXs" secondAttribute="leading" constant="129" id="dcs-Cf-Chg"/>
+                            <constraint firstItem="1X7-6w-LhP" firstAttribute="leading" secondItem="VVT-GS-tXs" secondAttribute="leading" constant="77" id="eao-Jm-o2K"/>
+                            <constraint firstItem="VVT-GS-tXs" firstAttribute="trailing" secondItem="Njt-iW-WNl" secondAttribute="trailing" constant="129" id="pLV-1a-Jnl"/>
+                            <constraint firstItem="8qL-W0-SEU" firstAttribute="leading" secondItem="VVT-GS-tXs" secondAttribute="leading" constant="100" id="ru2-qD-TIK"/>
+                            <constraint firstItem="Iij-Tv-TPn" firstAttribute="leading" secondItem="VVT-GS-tXs" secondAttribute="leading" id="x6K-K0-f56"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backImageView" destination="Iel-ra-qmY" id="6KB-9M-bzv"/>
+                        <outlet property="brainMuscleLabel" destination="8qL-W0-SEU" id="GQi-HL-ylG"/>
+                        <outlet property="startButton" destination="Njt-iW-WNl" id="O7B-Nf-kSz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FIh-Ij-cLg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-146.40000000000001" y="-183.25123152709361"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="脳筋1" width="800" height="567"/>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

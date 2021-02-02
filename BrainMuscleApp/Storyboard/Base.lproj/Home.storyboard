@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="HomeViewController" customModule="BrainMuscleApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="あなたは脳筋です" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwh-TC-sN2">
+                                <rect key="frame" x="0.0" y="523" width="375" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="5n8-4X-gxB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="脳筋診断" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUh-fR-7bQ">
+                                <rect key="frame" x="0.0" y="74" width="375" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="WDh-gc-qz4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
+                                <color key="textColor" red="1" green="0.76827219285439041" blue="0.42594093432508195" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="87c-tZ-C4v">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIl-9d-uVN">
+                                        <rect key="frame" x="230" y="730" width="108" height="40"/>
+                                        <color key="backgroundColor" red="0.68447559579999995" green="0.88822549579999999" blue="0.75763842029999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="108" id="ESg-wo-edg"/>
+                                            <constraint firstAttribute="height" constant="40" id="tc4-5g-c7t"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="15"/>
+                                        <state key="normal" title="通算記録を見る">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzp-Sg-Ou6">
+                                        <rect key="frame" x="25" y="730" width="120" height="40"/>
+                                        <color key="backgroundColor" red="0.769686184" green="0.87038534150000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="E04-mn-kpp"/>
+                                            <constraint firstAttribute="height" constant="40" id="RIY-8e-ANf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
+                                        <state key="normal" title="診断する">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bk0-zH-Rhd">
+                                        <rect key="frame" x="25" y="79" width="50" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="71a-XV-7uW"/>
+                                            <constraint firstAttribute="width" constant="50" id="lct-oF-TJ4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
+                                        <state key="normal" title="戻る">
+                                            <color key="titleColor" systemColor="systemTealColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8Y-y4-3hk">
+                                        <rect key="frame" x="17" y="117" width="340" height="350"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                        <state key="normal" title="ここをタップして写真を貼ってください">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="pIl-9d-uVN" secondAttribute="trailing" constant="37" id="2os-jV-TBh"/>
+                                    <constraint firstItem="qzp-Sg-Ou6" firstAttribute="top" secondItem="pIl-9d-uVN" secondAttribute="top" id="Rzu-Rw-YAP"/>
+                                    <constraint firstItem="pIl-9d-uVN" firstAttribute="leading" secondItem="qzp-Sg-Ou6" secondAttribute="trailing" constant="85" id="bT4-dW-qVq"/>
+                                    <constraint firstItem="qzp-Sg-Ou6" firstAttribute="leading" secondItem="87c-tZ-C4v" secondAttribute="leading" constant="25" id="edL-cn-lbO"/>
+                                    <constraint firstItem="pIl-9d-uVN" firstAttribute="leading" secondItem="qzp-Sg-Ou6" secondAttribute="trailing" constant="85" id="f13-ql-DVQ"/>
+                                    <constraint firstItem="bk0-zH-Rhd" firstAttribute="leading" secondItem="87c-tZ-C4v" secondAttribute="leading" constant="25" id="mkW-PD-Bex"/>
+                                    <constraint firstAttribute="trailing" secondItem="bk0-zH-Rhd" secondAttribute="trailing" constant="300" id="n58-PF-xcu"/>
+                                    <constraint firstItem="bk0-zH-Rhd" firstAttribute="top" secondItem="87c-tZ-C4v" secondAttribute="top" constant="79" id="v9R-9y-jjF"/>
+                                    <constraint firstItem="qzp-Sg-Ou6" firstAttribute="bottom" secondItem="87c-tZ-C4v" secondAttribute="bottomMargin" id="vKD-D1-mPg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="87c-tZ-C4v" firstAttribute="leading" secondItem="lUh-fR-7bQ" secondAttribute="leading" id="06v-IP-3hs"/>
+                            <constraint firstItem="87c-tZ-C4v" firstAttribute="trailing" secondItem="Gwh-TC-sN2" secondAttribute="trailing" id="B1k-0O-i0g"/>
+                            <constraint firstItem="87c-tZ-C4v" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Jn7-34-rH4"/>
+                            <constraint firstItem="lUh-fR-7bQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Qdu-8g-2h3"/>
+                            <constraint firstItem="lUh-fR-7bQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Umf-pc-ps0"/>
+                            <constraint firstItem="lUh-fR-7bQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XcF-RV-ubF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gwh-TC-sN2" secondAttribute="bottom" constant="200" id="cro-er-Brj"/>
+                            <constraint firstItem="87c-tZ-C4v" firstAttribute="leading" secondItem="Gwh-TC-sN2" secondAttribute="leading" id="eMd-Yu-Yeg"/>
+                            <constraint firstItem="87c-tZ-C4v" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="eTZ-kv-VmU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="bk0-zH-Rhd" id="2oJ-Ec-NWP"/>
+                        <outlet property="backView" destination="87c-tZ-C4v" id="WvU-sU-x4X"/>
+                        <outlet property="imageButton" destination="C8Y-y4-3hk" id="eKU-oR-9XY"/>
+                        <outlet property="resultButton" destination="qzp-Sg-Ou6" id="43g-F9-wfu"/>
+                        <outlet property="resultLabel" destination="Gwh-TC-sN2" id="1Kk-zy-IHb"/>
+                        <outlet property="totalrecordButton" destination="pIl-9d-uVN" id="5bO-2B-VuY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="66.502463054187189"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

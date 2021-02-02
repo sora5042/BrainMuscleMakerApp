@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Total Record View Controller-->
+        <scene sceneID="tpo-WX-9fc">
+            <objects>
+                <viewController storyboardIdentifier="TotalRecordViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="snW-4k-3c3" customClass="TotalRecordViewController" customModule="BrainMuscleApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SZU-8S-0F9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.050000000000000003" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="脳" translatesAutoresizingMaskIntoConstraints="NO" id="gQH-Te-G3f">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="X6E-WJ-FXU">
+                                <rect key="frame" x="37" y="194" width="300" height="400"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Tmh-fd-lxS">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="脳筋" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="js7-hD-c9f">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="50"/>
+                                                <color key="textColor" red="1" green="0.98859065239999999" blue="0.14467756579999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3人" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GdN-ox-ksB">
+                                                <rect key="frame" x="0.0" y="50" width="300" height="50"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="25"/>
+                                                <color key="textColor" red="1" green="0.98859065243887823" blue="0.14467756583832991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8IC-8r-Cgq">
+                                        <rect key="frame" x="0.0" y="150" width="300" height="100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="凡人" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lak-h3-ayf">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                                <color key="textColor" systemColor="systemGray4Color"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50人" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWx-ns-ppQ">
+                                                <rect key="frame" x="0.0" y="50" width="300" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mfn-DH-7nX">
+                                        <rect key="frame" x="0.0" y="300" width="300" height="100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ゴミ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYi-9O-yUz">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
+                                                <color key="textColor" red="0.78617703184789545" green="0.44230171450042149" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="135人" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bat-t2-XBV">
+                                                <rect key="frame" x="0.0" y="50" width="300" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="h95-cQ-WdS"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="脳筋カウント" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwl-wB-svJ">
+                                <rect key="frame" x="74" y="72" width="227" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="35"/>
+                                <color key="textColor" red="1" green="0.43609742750000002" blue="0.47613159929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JoO-af-XC6">
+                                <rect key="frame" x="16" y="81" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="m7l-pc-4Cq"/>
+                                    <constraint firstAttribute="width" constant="50" id="xjY-gZ-wNw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
+                                <state key="normal" title="戻る">
+                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iIx-Ow-heq"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gQH-Te-G3f" firstAttribute="leading" secondItem="iIx-Ow-heq" secondAttribute="leading" id="9ls-OE-b6g"/>
+                            <constraint firstItem="gQH-Te-G3f" firstAttribute="trailing" secondItem="iIx-Ow-heq" secondAttribute="trailing" id="Axc-ya-cV0"/>
+                            <constraint firstItem="JoO-af-XC6" firstAttribute="leading" secondItem="iIx-Ow-heq" secondAttribute="leading" constant="16" id="GQf-B3-qkL"/>
+                            <constraint firstItem="gQH-Te-G3f" firstAttribute="top" secondItem="SZU-8S-0F9" secondAttribute="top" id="V9r-sK-ZNi"/>
+                            <constraint firstItem="X6E-WJ-FXU" firstAttribute="top" secondItem="iIx-Ow-heq" secondAttribute="top" constant="150" id="ZLJ-r7-OIr"/>
+                            <constraint firstItem="JoO-af-XC6" firstAttribute="top" secondItem="iIx-Ow-heq" secondAttribute="top" constant="37" id="ccz-WF-bIK"/>
+                            <constraint firstAttribute="bottom" secondItem="gQH-Te-G3f" secondAttribute="bottom" id="djh-71-4Ux"/>
+                            <constraint firstItem="iIx-Ow-heq" firstAttribute="trailing" secondItem="X6E-WJ-FXU" secondAttribute="trailing" constant="38" id="nPk-Ho-dOh"/>
+                            <constraint firstItem="X6E-WJ-FXU" firstAttribute="leading" secondItem="iIx-Ow-heq" secondAttribute="leading" constant="37" id="teR-0x-I3c"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="JoO-af-XC6" id="Uwy-L9-m8w"/>
+                        <outlet property="bonzinCountLabel" destination="CWx-ns-ppQ" id="PKu-YD-z61"/>
+                        <outlet property="brainMuscleCountLabel" destination="GdN-ox-ksB" id="Uyt-Ns-M1r"/>
+                        <outlet property="trashCountLabel" destination="bat-t2-XBV" id="6yB-N2-6Sl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hgn-91-itb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.80000000000000004" y="120.44334975369459"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="脳" width="960" height="960"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
