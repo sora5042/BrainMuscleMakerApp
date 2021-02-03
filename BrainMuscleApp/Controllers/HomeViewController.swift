@@ -13,15 +13,15 @@ import FirebaseFirestore
 
 class HomeViewController: UIViewController, UINavigationControllerDelegate {
     
-    let db = Firestore.firestore()
+    private let db = Firestore.firestore()
     
-    var brainMuscleCount = Int()
-    var bonzinCount = Int()
-    var trashCount = Int()
+    private var brainMuscleCount = Int()
+    private var bonzinCount = Int()
+    private var trashCount = Int()
     
-    let brainMuscleDocId = "brainMuscle"
-    let bonzinDocId = "bonzin"
-    let trashDocId = "trash"
+    private let brainMuscleDocId = "brainMuscle"
+    private let bonzinDocId = "bonzin"
+    private let trashDocId = "trash"
     
     @IBOutlet weak var backView: UIView!
     @IBOutlet weak var backButton: UIButton!
@@ -205,6 +205,7 @@ class HomeViewController: UIViewController, UINavigationControllerDelegate {
     }
 }
 
+// MARK: - Animation関連
 extension HomeViewController {
     
     private func trashShowAnimation() {
@@ -286,6 +287,7 @@ extension HomeViewController {
     }
 }
 
+// MARK: - UIImagePickerControllerDelegate
 extension HomeViewController: UIImagePickerControllerDelegate {
     
     func doCamera() {

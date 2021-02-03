@@ -32,7 +32,6 @@ class CheckModel {
             @unknown default: break
                 
             }
-            
         }
     }
 }
