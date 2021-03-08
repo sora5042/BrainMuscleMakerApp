@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="脳筋1" translatesAutoresizingMaskIntoConstraints="NO" id="Iel-ra-qmY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="脳筋1" translatesAutoresizingMaskIntoConstraints="NO" id="Iel-ra-qmY">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="診断メーカー" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81Y-tU-cvS">
                                 <rect key="frame" x="0.0" y="237.33333333333337" width="375" height="100"/>
@@ -65,13 +64,17 @@
                         <viewLayoutGuide key="safeArea" id="VVT-GS-tXs"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Iel-ra-qmY" firstAttribute="top" secondItem="nD0-9q-LMT" secondAttribute="top" id="1tH-WM-p86"/>
+                            <constraint firstItem="Iel-ra-qmY" firstAttribute="trailing" secondItem="VVT-GS-tXs" secondAttribute="trailing" id="3oJ-zi-iGk"/>
                             <constraint firstItem="8qL-W0-SEU" firstAttribute="top" secondItem="VVT-GS-tXs" secondAttribute="top" constant="60" id="4Bt-sP-ofB"/>
                             <constraint firstItem="VVT-GS-tXs" firstAttribute="trailing" secondItem="8qL-W0-SEU" secondAttribute="trailing" constant="100" id="905-lp-4iX"/>
                             <constraint firstItem="Iij-Tv-TPn" firstAttribute="trailing" secondItem="VVT-GS-tXs" secondAttribute="trailing" id="DHA-mR-U6U"/>
+                            <constraint firstAttribute="bottom" secondItem="Iel-ra-qmY" secondAttribute="bottom" id="ItC-sm-ibZ"/>
                             <constraint firstItem="Njt-iW-WNl" firstAttribute="top" secondItem="81Y-tU-cvS" secondAttribute="bottom" constant="80" id="MK1-f2-0vT"/>
                             <constraint firstItem="Iij-Tv-TPn" firstAttribute="top" secondItem="Njt-iW-WNl" secondAttribute="bottom" constant="104" id="OK3-vo-daD"/>
                             <constraint firstItem="1X7-6w-LhP" firstAttribute="top" secondItem="Iij-Tv-TPn" secondAttribute="bottom" constant="12" id="TsJ-hf-OU6"/>
                             <constraint firstItem="81Y-tU-cvS" firstAttribute="top" secondItem="8qL-W0-SEU" secondAttribute="bottom" constant="20" id="YvB-sL-cWu"/>
+                            <constraint firstItem="Iel-ra-qmY" firstAttribute="leading" secondItem="VVT-GS-tXs" secondAttribute="leading" id="asl-bW-tzh"/>
                             <constraint firstItem="81Y-tU-cvS" firstAttribute="trailing" secondItem="VVT-GS-tXs" secondAttribute="trailing" id="axW-4d-uqc"/>
                             <constraint firstItem="81Y-tU-cvS" firstAttribute="leading" secondItem="VVT-GS-tXs" secondAttribute="leading" id="dT9-VS-f20"/>
                             <constraint firstItem="VVT-GS-tXs" firstAttribute="trailing" secondItem="1X7-6w-LhP" secondAttribute="trailing" constant="78" id="dbu-gR-jIN"/>

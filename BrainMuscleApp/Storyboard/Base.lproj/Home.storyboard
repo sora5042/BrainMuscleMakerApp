@@ -17,19 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="あなたは脳筋です" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwh-TC-sN2">
-                                <rect key="frame" x="0.0" y="523" width="375" height="55"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="5n8-4X-gxB"/>
-                                </constraints>
+                                <rect key="frame" x="107.66666666666669" y="503" width="160" height="26"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="脳筋診断" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUh-fR-7bQ">
-                                <rect key="frame" x="0.0" y="74" width="375" height="39"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="375" id="WDh-gc-qz4"/>
-                                </constraints>
+                                <rect key="frame" x="127.66666666666669" y="64" width="120" height="39"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
                                 <color key="textColor" red="1" green="0.76827219285439041" blue="0.42594093432508195" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -37,24 +31,34 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="87c-tZ-C4v">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIl-9d-uVN">
-                                        <rect key="frame" x="230" y="730" width="108" height="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIl-9d-uVN">
+                                        <rect key="frame" x="215" y="715" width="110" height="38"/>
                                         <color key="backgroundColor" red="0.68447559579999995" green="0.88822549579999999" blue="0.75763842029999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="108" id="ESg-wo-edg"/>
-                                            <constraint firstAttribute="height" constant="40" id="tc4-5g-c7t"/>
+                                            <constraint firstAttribute="width" constant="110" id="5EU-Gx-KHJ"/>
+                                            <constraint firstAttribute="height" constant="38" id="XiE-EQ-yTY"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="15"/>
                                         <state key="normal" title="通算記録を見る">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8Y-y4-3hk">
+                                        <rect key="frame" x="30" y="130" width="315" height="315"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="C8Y-y4-3hk" secondAttribute="height" multiplier="1:1" id="k5J-09-Bmz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                        <state key="normal" title="こちらをタップして写真を選択">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzp-Sg-Ou6">
-                                        <rect key="frame" x="25" y="730" width="120" height="40"/>
+                                        <rect key="frame" x="50" y="715" width="110" height="38"/>
                                         <color key="backgroundColor" red="0.769686184" green="0.87038534150000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="120" id="E04-mn-kpp"/>
-                                            <constraint firstAttribute="height" constant="40" id="RIY-8e-ANf"/>
+                                            <constraint firstAttribute="width" constant="110" id="nH4-Qw-txI"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
                                         <state key="normal" title="診断する">
@@ -62,52 +66,42 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bk0-zH-Rhd">
-                                        <rect key="frame" x="25" y="79" width="50" height="30"/>
+                                        <rect key="frame" x="30" y="70" width="50" height="40"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="71a-XV-7uW"/>
-                                            <constraint firstAttribute="width" constant="50" id="lct-oF-TJ4"/>
+                                            <constraint firstAttribute="height" constant="40" id="4Yr-RF-j6v"/>
+                                            <constraint firstAttribute="width" constant="50" id="tP0-l9-3B7"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
                                         <state key="normal" title="戻る">
                                             <color key="titleColor" systemColor="systemTealColor"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8Y-y4-3hk">
-                                        <rect key="frame" x="17" y="117" width="340" height="350"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
-                                        <state key="normal" title="ここをタップして写真を貼ってください">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="pIl-9d-uVN" secondAttribute="trailing" constant="37" id="2os-jV-TBh"/>
-                                    <constraint firstItem="qzp-Sg-Ou6" firstAttribute="top" secondItem="pIl-9d-uVN" secondAttribute="top" id="Rzu-Rw-YAP"/>
-                                    <constraint firstItem="pIl-9d-uVN" firstAttribute="leading" secondItem="qzp-Sg-Ou6" secondAttribute="trailing" constant="85" id="bT4-dW-qVq"/>
-                                    <constraint firstItem="qzp-Sg-Ou6" firstAttribute="leading" secondItem="87c-tZ-C4v" secondAttribute="leading" constant="25" id="edL-cn-lbO"/>
-                                    <constraint firstItem="pIl-9d-uVN" firstAttribute="leading" secondItem="qzp-Sg-Ou6" secondAttribute="trailing" constant="85" id="f13-ql-DVQ"/>
-                                    <constraint firstItem="bk0-zH-Rhd" firstAttribute="leading" secondItem="87c-tZ-C4v" secondAttribute="leading" constant="25" id="mkW-PD-Bex"/>
-                                    <constraint firstAttribute="trailing" secondItem="bk0-zH-Rhd" secondAttribute="trailing" constant="300" id="n58-PF-xcu"/>
-                                    <constraint firstItem="bk0-zH-Rhd" firstAttribute="top" secondItem="87c-tZ-C4v" secondAttribute="top" constant="79" id="v9R-9y-jjF"/>
-                                    <constraint firstItem="qzp-Sg-Ou6" firstAttribute="bottom" secondItem="87c-tZ-C4v" secondAttribute="bottomMargin" id="vKD-D1-mPg"/>
+                                    <constraint firstItem="bk0-zH-Rhd" firstAttribute="top" secondItem="87c-tZ-C4v" secondAttribute="top" constant="70" id="I3R-De-1E5"/>
+                                    <constraint firstItem="C8Y-y4-3hk" firstAttribute="centerX" secondItem="87c-tZ-C4v" secondAttribute="centerX" id="LNz-V6-MVu"/>
+                                    <constraint firstAttribute="trailing" secondItem="C8Y-y4-3hk" secondAttribute="trailing" constant="30" id="NE1-y8-ud8"/>
+                                    <constraint firstItem="qzp-Sg-Ou6" firstAttribute="leading" secondItem="87c-tZ-C4v" secondAttribute="leading" constant="50" id="c0u-5x-X90"/>
+                                    <constraint firstItem="C8Y-y4-3hk" firstAttribute="top" secondItem="bk0-zH-Rhd" secondAttribute="bottom" constant="20" id="eGn-0m-FIl"/>
+                                    <constraint firstItem="bk0-zH-Rhd" firstAttribute="leading" secondItem="87c-tZ-C4v" secondAttribute="leading" constant="30" id="fcH-zA-NNK"/>
+                                    <constraint firstAttribute="trailing" secondItem="pIl-9d-uVN" secondAttribute="trailing" constant="50" id="gSN-cg-MkN"/>
+                                    <constraint firstItem="pIl-9d-uVN" firstAttribute="top" secondItem="C8Y-y4-3hk" secondAttribute="bottom" constant="270" id="tsC-EW-kPo"/>
+                                    <constraint firstItem="qzp-Sg-Ou6" firstAttribute="top" secondItem="C8Y-y4-3hk" secondAttribute="bottom" constant="270" id="yfC-Zb-h18"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="87c-tZ-C4v" firstAttribute="leading" secondItem="lUh-fR-7bQ" secondAttribute="leading" id="06v-IP-3hs"/>
-                            <constraint firstItem="87c-tZ-C4v" firstAttribute="trailing" secondItem="Gwh-TC-sN2" secondAttribute="trailing" id="B1k-0O-i0g"/>
-                            <constraint firstItem="87c-tZ-C4v" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Jn7-34-rH4"/>
-                            <constraint firstItem="lUh-fR-7bQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Qdu-8g-2h3"/>
-                            <constraint firstItem="lUh-fR-7bQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Umf-pc-ps0"/>
-                            <constraint firstItem="lUh-fR-7bQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XcF-RV-ubF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gwh-TC-sN2" secondAttribute="bottom" constant="200" id="cro-er-Brj"/>
-                            <constraint firstItem="87c-tZ-C4v" firstAttribute="leading" secondItem="Gwh-TC-sN2" secondAttribute="leading" id="eMd-Yu-Yeg"/>
-                            <constraint firstItem="87c-tZ-C4v" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="eTZ-kv-VmU"/>
+                            <constraint firstItem="lUh-fR-7bQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5qI-L8-mAU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="87c-tZ-C4v" secondAttribute="trailing" id="A7Y-O9-sqK"/>
+                            <constraint firstItem="87c-tZ-C4v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="J8Z-4M-WIr"/>
+                            <constraint firstItem="lUh-fR-7bQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="JTS-K8-Jbz"/>
+                            <constraint firstAttribute="bottom" secondItem="87c-tZ-C4v" secondAttribute="bottom" id="M7A-Hb-aik"/>
+                            <constraint firstItem="Gwh-TC-sN2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O6q-wi-lZp"/>
+                            <constraint firstItem="Gwh-TC-sN2" firstAttribute="top" secondItem="lUh-fR-7bQ" secondAttribute="bottom" constant="400" id="Ysh-h2-PsK"/>
+                            <constraint firstItem="87c-tZ-C4v" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="f5U-nw-ody"/>
                         </constraints>
                     </view>
                     <connections>

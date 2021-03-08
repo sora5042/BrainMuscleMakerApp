@@ -127,7 +127,7 @@ class HomeViewController: UIViewController, UINavigationControllerDelegate {
         let bonzin = "残念ながらこの人は凡人です。無価値。"
         let gomi = "この人はクソ野郎だと思います"
         
-        let array = [["text": noukin,"per": 3],["text": bonzin,"per": 70],["text": gomi,"per": 27]]
+        let array = [["text": noukin,"per": 10],["text": bonzin,"per":63 ],["text": gomi,"per": 27]]
         
         var target = Int(arc4random_uniform(100))
         let result = array.reduce("") { (str, value) -> String in

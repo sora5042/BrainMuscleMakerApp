@@ -78,13 +78,6 @@
                                     <constraint firstAttribute="height" constant="400" id="h95-cQ-WdS"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="脳筋カウント" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwl-wB-svJ">
-                                <rect key="frame" x="74" y="72" width="227" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="35"/>
-                                <color key="textColor" red="1" green="0.43609742750000002" blue="0.47613159929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JoO-af-XC6">
                                 <rect key="frame" x="16" y="81" width="50" height="30"/>
                                 <constraints>
@@ -96,18 +89,30 @@
                                     <color key="titleColor" systemColor="systemTealColor"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="脳筋カウント" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwl-wB-svJ">
+                                <rect key="frame" x="74" y="72" width="227" height="45.666666666666657"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="227" id="aVF-V2-0s8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="35"/>
+                                <color key="textColor" red="1" green="0.43609742750000002" blue="0.47613159929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iIx-Ow-heq"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="gQH-Te-G3f" firstAttribute="leading" secondItem="iIx-Ow-heq" secondAttribute="leading" id="9ls-OE-b6g"/>
                             <constraint firstItem="gQH-Te-G3f" firstAttribute="trailing" secondItem="iIx-Ow-heq" secondAttribute="trailing" id="Axc-ya-cV0"/>
+                            <constraint firstItem="iIx-Ow-heq" firstAttribute="trailing" secondItem="Mwl-wB-svJ" secondAttribute="trailing" constant="74" id="DIi-af-r0U"/>
                             <constraint firstItem="JoO-af-XC6" firstAttribute="leading" secondItem="iIx-Ow-heq" secondAttribute="leading" constant="16" id="GQf-B3-qkL"/>
+                            <constraint firstItem="Mwl-wB-svJ" firstAttribute="leading" secondItem="JoO-af-XC6" secondAttribute="trailing" constant="8" symbolic="YES" id="I3J-bz-lv5"/>
                             <constraint firstItem="gQH-Te-G3f" firstAttribute="top" secondItem="SZU-8S-0F9" secondAttribute="top" id="V9r-sK-ZNi"/>
                             <constraint firstItem="X6E-WJ-FXU" firstAttribute="top" secondItem="iIx-Ow-heq" secondAttribute="top" constant="150" id="ZLJ-r7-OIr"/>
                             <constraint firstItem="JoO-af-XC6" firstAttribute="top" secondItem="iIx-Ow-heq" secondAttribute="top" constant="37" id="ccz-WF-bIK"/>
                             <constraint firstAttribute="bottom" secondItem="gQH-Te-G3f" secondAttribute="bottom" id="djh-71-4Ux"/>
                             <constraint firstItem="iIx-Ow-heq" firstAttribute="trailing" secondItem="X6E-WJ-FXU" secondAttribute="trailing" constant="38" id="nPk-Ho-dOh"/>
+                            <constraint firstItem="Mwl-wB-svJ" firstAttribute="top" secondItem="iIx-Ow-heq" secondAttribute="top" constant="28" id="rVa-lX-eTq"/>
                             <constraint firstItem="X6E-WJ-FXU" firstAttribute="leading" secondItem="iIx-Ow-heq" secondAttribute="leading" constant="37" id="teR-0x-I3c"/>
                         </constraints>
                     </view>
