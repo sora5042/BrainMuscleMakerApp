@@ -16,3 +16,9 @@ pod 'Firebase/Analytics'
 pod 'Firebase/Firestore'  
 pod 'Firebase'  
 pod 'Pastel'  
+  
+#  スクリーンショット  
+<img src="https://user-images.githubusercontent.com/65600700/110295523-8dc3b480-8034-11eb-8e78-759f92bbbf79.PNG" width="250px">  
+<img src="https://user-images.githubusercontent.com/65600700/110294956-df1f7400-8033-11eb-8d11-f371aba63ae9.PNG" width="250px"><img src="https://user-images.githubusercontent.com/65600700/110295804-e2ffc600-8034-11eb-8bcb-bc6e28309539.PNG" width="250px"><img src="https://user-images.githubusercontent.com/65600700/110295977-1e01f980-8035-11eb-9eef-1ea03c7aeaf0.PNG" width="250px"><img src="https://user-images.githubusercontent.com/65600700/110296088-40941280-8035-11eb-8e54-33019d539619.PNG" width="250px">    
+<img src="https://user-images.githubusercontent.com/65600700/110296264-7b964600-8035-11eb-8695-49ed43e143e2.PNG" width="250px">
+
